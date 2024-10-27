@@ -1,0 +1,688 @@
+/*-------------hover links----------*/
+.main .row .column .content a {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 800;
+	color: darkblue;
+	text-shadow: 2px;
+}
+.main .row .column .content a:hover {
+	color:darkcyan;
+}
+
+/*------------button--------*/
+.contactbtn{
+	background:#1bb5ac;
+	color:#fff;
+	font-size: 22px;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 6px 30px;
+	border :none;
+	border-bottom:5px solid #113c94;
+	border-radius: 5px;
+
+}
+.contactbtn:hover{
+	background:#07f7e1;
+	border-bottom:3px solid #0d7992;
+}
+.contactbtn:focus{
+	outline:none;
+}
+.registerbtn {
+	background: #1bb5ac;
+	color: #fff;
+	font-size: 22px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 6px 30px;
+	border: none;
+	border-bottom: 5px solid #113c94;
+	border-radius: 5px;
+}
+.registerbtn:hover {
+	background: #07f7e1;
+	border-bottom: 3px solid #0d7992;
+}
+.registerbtn:focus{
+	outline:none;
+}
+.signupbtn {
+	background: #1bb5ac;
+	color: #fff;
+	font-size: 22px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 6px 30px;
+	border: none;
+	border-bottom: 5px solid #113c94;
+	border-radius: 5px;
+}
+
+.signupbtn:hover {
+	background: #07f7e1;
+	border-bottom: 3px solid #0d7992;
+}
+
+.signupbtn:focus {
+	outline: none;
+}
+.loginbtn {
+	background: #1bb5ac;
+	color: #fff;
+	font-size: 22px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 6px 30px;
+	border: none;
+	border-bottom: 5px solid #113c94;
+	border-radius: 5px;
+}
+
+.loginbtn:hover {
+	background: #07f7e1;
+	border-bottom: 3px solid #0d7992;
+}
+
+.loginbtn:focus {
+	outline: none;
+}
+
+
+/*----------Events-----------*/
+.events {
+	width: 85%;
+	max-width: 600px;
+	background: #eee;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 30px 40px;
+	border-radius: 8px;
+	text-align: center;
+	font-size: 17px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 800;
+}
+.body6 {
+	background-image: url('../images/img23.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.events h2 a:hover{
+	color:#fc0606;
+}
+.container1 center a{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight:800;
+	color:darkblue;
+	text-shadow:2px;
+}
+.container1 center a:hover {
+	color:darkcyan;
+}
+ 
+
+
+
+/*----------Contact----------*/
+.body {
+		background-image: url('../images/bg-contact.jpg');
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-attachment:fixed;
+		padding:10px;
+}
+.add{
+	float:right;
+	width:50%;
+}
+.add a i {
+	color: gold;
+	text-transform: lowercase;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 800;
+	text-shadow:2px;
+}
+.add a i:hover{
+	color:darkorange;
+}
+.add b {
+	color: aliceblue;
+	font: 13px;
+}
+.contactform label{
+	color:aliceblue;
+	font-size:15px;
+	display:block;
+	text-align:left;
+	text-transform:uppercase;
+}
+.contact b {
+	color: aliceblue;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.feedback{
+	width:85%;
+	max-width:600px;
+	background:#eee;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	padding:30px 40px;
+	border-radius:8px;
+	text-align:center;
+	font-size:20px;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-weight:800;
+}
+
+.body1 {
+	background-image: url('../images/bg-contact.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+.registermsg {
+	width: 85%;
+	max-width: 600px;
+	background: #eee;
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 30px 40px;
+	border-radius: 8px;
+	text-align: center;
+	font-size: 20px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 800;
+}
+.body3 {
+	background-image: url('../images/img18.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+/*------------DONATE-----------*/
+.donate {
+	text-align:left;
+	width:90%;
+	max-width: 1000px;
+	background:#eee;
+	position: absolute;
+	top: 115%;
+	left: 50%;
+	transform: translate(-45%,-50%);
+	padding: 20px 20px;
+	border-radius: 9px;
+	padding:15px;
+	
+	font-size: 20px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 900;
+}
+
+.body2 {
+	background-image: url('../images/donatewall.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+	padding:10px;
+}
+.donateimg strong{
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-weight:bolder;
+	font-size:50px;
+
+}
+
+@media only screen and (max-width: 770px) {
+	.container {
+		flex-direction: column;
+	}
+
+	body {
+		overflow-x: hidden;
+	}
+}
+
+
+
+
+/*------------image and text side by side(home page)-------------*/
+#body.homeabout ul li img{
+	width:30%;
+	height:30%;
+	
+
+}
+.homeabout div{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.homeinfo {
+	float: left;
+	width: 45%;
+	display: inline-block;
+	padding: 10px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.homeabout{
+	padding:10px;
+}
+.homebody{
+	display:flex;
+	padding:15px;
+}
+.homeimg {
+	float: left;
+	width: 60%;
+	
+}
+
+.homeimg1 {
+	float: right;
+	width: 50%;
+	
+}
+.infoimg {
+	float: right;
+	width: 54%;
+	border: 5px double #000000;
+	
+}
+
+
+
+/*------------Login-------------*/
+/* Bordered form */
+.imgcontainer,.container1 {
+	border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+	width: 90%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+	background-color: #04AA6D;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 20%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+	opacity: 0.8;
+}
+
+
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+	width: 20%;
+	border-radius: 40%;
+}
+
+/* Add padding to containers */
+.container1 {
+	padding: 16px;
+}
+
+/* About 3 images */
+.column {
+	float: left;
+	width: 33.33%;
+	/*padding: 5px;*/
+}
+
+/* Clear floats after image containers */
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+/*------------------------- Upcoming Events ------------------------*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f1f1f1;
+	/*padding: 20px;*/
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Center website */
+.main {
+	max-width: 1100px;
+	margin: auto;
+}
+
+h3 {
+	font-size: 50px;
+	word-break: break-all;
+}
+
+.row {
+	margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+	padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+	float: left;
+	width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Content */
+.content {
+	background-color: white;
+	padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+	.column {
+		width: 50%;
+	}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}
+
+/*------------------------- Slideshow ------------------------*/
+* {
+	box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+	display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+
+	to {
+		opacity: 1
+	}
+}
+
+
+/*------------------------- Fonts ------------------------*/
+@font-face {
+	font-family: 'Cambria';
+	font-weight: normal;
+	font-style: normal;
+}
+/*------------------------- Layout styles ------------------------*/
+body {
+	margin:0;
+	font-family:Cambria, Helvetica, sans-serif;
+	background:url(../images/bg-body.jpg);
+	font-size:20px;
+}
+h3 {
+	text-align: center;
+}
+a {
+	outline:none;
+}
+a img {
+	/*border-style: none;
+	border-color: inherit;
+	border-width: 0;*/
+	display:block;
+	height: 115px;
+	width: 195px;
+	/*margin-right: 5px;*/
+}
+p {
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: 0.05em;
+	color: #000000;
+}
+p a {
+	color:#000000;
+}
+p a:hover {
+	color:#1bb5ac;
+}
+/*------------------------- Header ------------------------*/
+#header {
+	background: url(../images/bg-footer.png) repeat-x;
+	height: 128px;
+}
+#header div {
+	margin: 0 auto;
+	overflow: hidden;
+	/*padding:0 0 0 29px;*/
+	width: 950px;
+}
+#header div a#logo {
+	display:block;
+	float:left;
+	margin:0 0 0;
+	height:stretch;
+	
+}
+#header div ul {
+	float:right;
+	list-style:none;
+	margin:0;
+	overflow:hidden;
+	padding:0;
+}
+#header div ul li {
+	float:left;
+	height:130px;
+	text-align:center;
+	width:100px;
+	
+}
+#header div ul li a {
+	color: #000000;
+	font-weight:800;
+	display: block;
+	height: 130px;
+	letter-spacing: .075em;
+	line-height: 150px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #fff;
+	width: 110px;
+}
+
+#header div ul li.selected a {
+	background: url(../images/bg-nav-selected.png) repeat-x;
+}
+#header div ul li.selected a, #header div ul li a:hover {
+	color: #15f6da;
+}
+/*------------------------- About ------------------------*/
+
+
+.about p {
+	margin:4px 4px 50px;
+	text-align:justify;
+}
+.about label{
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-weight:bold;
+	font-size:25px;
+	text-transform:uppercase;
+	color:black;
+}
+
+.about {
+	color:black;
+	font-family:'Times New Roman', Times, serif;
+	font-weight:700;
+	font-size:18px;
+	letter-spacing:.05em;
+	line-height:24px;
+	padding:10px;
+	text-align:center;
+	
+}
+.about {
+	background-image: url('../images/img21.jpg');
+	backdrop-filter:opacity(10px);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+
+/*------------------------- Footer ------------------------*/
+#footer {
+	background:url(../images/bg-footer.png) repeat-x;
+	height:130px;
+}
+#footer div {
+	margin:0 auto;
+	padding:0 10px;
+	width:940px;
+}
+#footer div p {
+	color:#5bdee6;
+	display:block;
+	float:left;
+	margin:20px 0;
+}
+#footer div .connect {
+	float:right;
+	padding:14px 0 0;
+	width:auto;
+}
+#footer div .connect a {
+	display:block;
+	float:left;
+	height:30px;
+	margin:0 0 0 28px;
+	text-indent:-99999px;
+	width:30px;
+}
+
+
+#footer div .connect a#contact {
+	background:url(../images/icons.png) no-repeat -31px 0;
+}
+#footer div .connect a#facebook {
+	background:url(../images/icons.png) no-repeat -62px 0;
+}
+#footer div .connect a#twitter {
+	background:url(../images/icons.png) no-repeat -93px 0;
+}

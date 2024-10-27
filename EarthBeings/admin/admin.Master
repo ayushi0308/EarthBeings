@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="EarthBeings.admin.admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Admin Dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/admin.css" rel="stylesheet" />
+    <style type="text/css">
+        
+        .auto-style1 {
+            width: 120px;
+            height: 105px;
+        }
+        
+        .auto-style2 {
+            width: 46px;
+            height: 41px;
+        }
+        
+        .auto-style3 {
+            width: 50px;
+            height: 50px;
+        }
+        
+        .auto-style4 {
+            width: 50px;
+            height: 50px;
+        }
+        
+        .auto-style5 {
+            width: 50px;
+            height: 50px;
+        }
+        
+        .auto-style6 {
+            width: 50px;
+            height:50px;
+        }
+        
+        .auto-style7 {
+            width: 46px;
+            height: 47px;
+        }
+        
+    </style>
+    </head>
+
+<body>
+         <div class="side-menu">
+            <center> <img src="../images/admin.png" class="auto-style1" /></center>
+            <div class="ngoname"><h2>Admin Dashboard</h2>
+                 </div>
+          
+            <ul>
+                <li><img src="../images/dash.png" class="auto-style3" />&nbsp<a href="adminDash.aspx">Dashboard</a></li>
+                <li><img src="../images/list.png" class="auto-style4" />&nbsp<a href="adminlist.aspx">List of Registered volunteers</a></li>
+                <li><img src="../images/query.png" class="auto-style5" />&nbsp<a href="adminquery.aspx">Queries</a></li>
+                <li><img src="../images/update.png" class="auto-style6" />&nbsp<a href="adminupdate.aspx">Update Events</a></li>
+            </ul>
+        </div>
+    
+    <div class="container">
+        <div class="header">
+            <div class="greeting"><img src="../images/user.png" class="auto-style2" />
+        <h2>Hello, Admin!</h2><br /></div>
+            <div class="logoheader"> <img src="../images/NewLogo.png" /></div>
+            <h2><strong>EARTHBEINGS</strong></h2>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+            <div class="logout">
+                <img src="../images/logout.png" class="auto-style7" />&nbsp<a href="adminLogout.aspx">LOGOUT</a></div>
+            </div> </div>
+    
+       <form id= "form1" runat="server">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

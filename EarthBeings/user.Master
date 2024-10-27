@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="user.master.cs" Inherits="EarthBeings.user" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>EarthBeings</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+   
+</head>
+<body>
+    
+	<form id= "form1" runat="server">
+	<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+		</form>
+
+	
+	
+	<div id="footer">
+		<div>
+			<p>
+				&#169; 2022 EarthBeings. All Rights Reserved.
+			</p>
+			<div class="connect">
+				
+				<a href="contact.aspx" id="contact">contact</a> 
+				<a href="https://www.facebook.com/login/" id="facebook">facebook</a> 
+				<a href="https://twitter.com/i/flow/login" id="twitter">twitter</a>
+			</div>
+		</div>
+	</div>
+	<script src="js/slideshow.js"></script>
+	
+
+</body>
+</html>
